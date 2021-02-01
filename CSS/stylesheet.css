@@ -1,0 +1,84 @@
+body{
+    background-image:url("/img/dumbbell-1966247_1920.jpg");
+    color:white;
+    font-family: 'Merriweather', serif;
+}
+li{
+    list-style: none;
+}
+.logo{
+    height:70px;
+    width:70px;
+}
+button{
+    border-radius: 3px;
+}
+header{
+    height:180px;
+}
+.header-left h3{
+    line-height:8px;
+    text-align: center;
+}
+.header-left{
+    width:70px;
+    float:left;
+    display: inline;
+}
+.header-center li{
+    float: right;
+    padding: 5px 20px;
+    font-size: 20px;
+}
+.header-center{
+    padding-left:240px;
+    float:left;
+    display: inline;
+}
+.header-right{
+    float:right;
+    display: inline;
+    padding-right:60px;
+    padding-top:20px;
+}
+.header-right button{
+    margin-left:20px;
+    height:30px;
+    width:100px;
+    background-color: rgb(221, 214, 214);
+    font-weight: bold;
+}
+.header-right button:hover{
+    background-color:rgb(151, 142, 142) ;
+}
+.box{
+    height:500px;
+    width:670px;
+    border: 3px white solid;
+    text-align: center;
+    margin-left: 30px;
+    padding: 0px 30px;
+}
+.box h3{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.box input{
+    display: block;
+    text-align: center;
+    width:650px;
+    height: 28px;
+    margin-bottom: 15px;
+}
+.submitBtn{
+    margin-top: 40px;
+    width: 300px;
+    height:30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(221, 214, 214);
+}
+.submitBtn:hover{
+    background-color: rgb(151, 142, 142) ;
+}
